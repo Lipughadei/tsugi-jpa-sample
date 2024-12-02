@@ -20,6 +20,13 @@
     <!-- lookup parent from repository -->
   </parent>
 
+ <repositories>
+    <repository>
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+    </repository>
+</repositories>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <start-class>org.tsugi.jpa.Application</start-class>
