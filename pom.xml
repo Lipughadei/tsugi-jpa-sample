@@ -22,8 +22,11 @@
 
  <repositories>
     <repository>
-        <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
+        <id>tsugi-jpa-sample</id>
+        <url>https://github.com/Lipughadei/tsugi-jpa-sample.git/master/</url>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
     </repository>
 </repositories>
 
